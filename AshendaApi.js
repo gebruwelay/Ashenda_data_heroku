@@ -34,19 +34,7 @@ app.get("/Ashenda", function(req, res) {
         res.json(results);
     });
 });
-app.get("/Ashenda", function(req, res) {
-    var stream = Product.find().limit(1).sort({"highScore":-1}).stream();
-    var results = {};
-    stream.on('data', function(doc) {
-        results = doc;
-    }).on("error", function(err) {
-        res.status(500);
-        next(err);
-    }).on('close', function() {
-        res.status(200);
-        res.json(results);
-    });
-});
+
 
 
  app.post("/Ashenda", function(req, res, next) {

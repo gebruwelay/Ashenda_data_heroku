@@ -2,7 +2,7 @@
   "name": "ashenda_data_server",
   "version": "1.0.0",
   "description": "server side",
-  "main": "AshendaApi.js",
+  "main": "AshendaDataApi.js",
   "dependencies": {
     "body-parser": "^1.18.2",
     "express": "4.16.1",
@@ -16,7 +16,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "https://github.com/gebruwelay/Ashenda_data_heroku.git",
-    "start": "node AshendaApi.js"
+    "start": "node AshendaDataApi.js"
   },
   "repository": {
     "type": "git",

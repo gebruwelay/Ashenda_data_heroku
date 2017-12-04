@@ -1,0 +1,35 @@
+{
+  "name": "ashenda_data_server",
+  "version": "1.0.0",
+  "description": "server side",
+  "main": "AshendaApi.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "4.16.1",
+    "mongodb": "2.2.31",
+    "mongoose": "4.12.0"
+  },
+  "engines": {
+    "node":"6.11.0",
+    "npm":"3.10.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "https://github.com/gebruwelay/Ashenda_data_heroku.git",
+    "start": "node AshendaApi.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gebruwelay/Ashenda_data_heroku.git"
+  },
+  "keywords": [
+    "Gebru",
+    "Ashenda"
+  ],
+  "author": "Gebru",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gebruwelay/Ashenda_data_heroku/issues"
+  },
+  "homepage": "https://github.com/gebruwelay/Ashenda_data_heroku#readme"
+}

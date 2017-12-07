@@ -7,5 +7,5 @@ if you want to use locally in your machine
 # install express
 2. npm install express --save
 # run 
- node ashendaAPI.js
+3.node ashendaAPI.js
 
